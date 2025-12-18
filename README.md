@@ -1,23 +1,32 @@
-# team-performance-analysis
-Team-level performance analysis of Major League Soccer matches.
-# Team Performance Analysis - MLS
+# Team Performance Analysis: MLS Home-Field Advantage
 
-## Project Overview
-This project analyzes team-level performance trends in Major League Soccer (MLS). 
-It focuses on match outcomes, schedule effects, and key performance metrics.
+This project explores **home-field advantage in Major League Soccer (MLS)** from 2015–2019. Using match data, we investigate how playing at home affects points earned, both across seasons and at the team level.
 
-## Goals
-- Understand factors influencing match outcomes.
-- Identify trends in team performance across the season.
-- Provide actionable insights for team decision-making.
+## Contents
+* `data/raw/` - Original CSVs from Kaggle
+* `data/processed/` - Filtered and cleaned datasets
+* `notebooks/` - Jupyter or Colab notebooks
+* `figures/` - Plots and visualizations
 
-## Tools
-- Python (pandas, matplotlib, seaborn)
-- SQL (optional)
-- Tableau (optional for visualization)
+## Objective
+* Understand the impact of home games on team performance
+* Quantify home-field advantage in terms of points earned
+* Visualize trends across teams and seasons
 
-## Structure
-- `data/raw/` - raw MLS datasets
-- `data/processed/` - cleaned datasets
-- `notebooks/` - analysis notebooks
-- `visuals/` - charts and figures
+## Key Skills Demonstrated
+* Python (pandas, matplotlib, seaborn, statsmodels)
+* Regression analysis (OLS)
+* Data cleaning and processing
+* Data visualization and storytelling
+* **R replication**: The analysis was also reproduced in R to showcase proficiency in multiple tools
+
+## Insights
+* Teams consistently earn more points at home — confirming a home-field advantage.
+* Year- and team-level effects give hints of trends, even when estimates are noisy.
+* Visualizations highlight the relative strength of home advantage for each team.
+
+## Next Steps
+* Incorporate more detailed match-level statistics (shots, possession, player metrics)
+* Explore player-level performance and team strategies
+* Extend analysis to NWSL for comparison with MLS
+* Use insights from both Python and R versions to cross-validate results
