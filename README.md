@@ -5,7 +5,7 @@ This project explores **home-field advantage in Major League Soccer (MLS)** from
 ## Contents
 * `data/raw/` - Original CSVs from Kaggle
 * `data/processed/` - Filtered and cleaned datasets
-* `notebooks/` - Jupyter or Colab notebooks
+* `notebooks/` - Colab Notebook and R file
 * `figures/` - Plots and visualizations
 
 ## Objective
