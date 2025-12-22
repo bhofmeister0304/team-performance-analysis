@@ -1,32 +1,40 @@
-# Team Performance Analysis: MLS Home-Field Advantage
+# Team Performance Analysis: MLS Home-Field Advantage (2015–2019)
 
-This project explores **home-field advantage in Major League Soccer (MLS)** from 2015–2019. Using match data, we investigate how playing at home affects points earned, both across seasons and at the team level.
+This project investigates **home-field advantage in Major League Soccer (MLS)** using match data from 2015–2019. The analysis explores how playing at home impacts points earned, both across seasons and at the team level.
 
 ## Contents
-* `data/raw/` - Original CSVs from Kaggle
-* `data/processed/` - Filtered and cleaned datasets
-* `notebooks/` - Colab Notebook and R file
-* `figures/` - Plots and visualizations
+* `data/raw/` – Original CSV files from Kaggle
+* `data/processed/` – Filtered and cleaned datasets used for analysis
+* `notebooks/` – Python (Colab) notebook and R Markdown notebook
+* `figures/` – Visualizations generated during the analysis
 
 ## Objective
-* Understand the impact of home games on team performance
-* Quantify home-field advantage in terms of points earned
-* Visualize trends across teams and seasons
+* Quantify the effect of home games on team performance (points earned)
+* Examine trends over multiple seasons
+* Compare team-level differences in home-field advantage
+* Showcase reproducibility across Python and R
 
 ## Key Skills Demonstrated
-* Python (pandas, matplotlib, seaborn, statsmodels)
-* Regression analysis (OLS)
-* Data cleaning and processing
-* Data visualization and storytelling
-* **R replication**: The analysis was also reproduced in R to showcase proficiency in multiple tools
+* **Python:** pandas, matplotlib, seaborn, statsmodels  
+* **R:** tidyverse, ggplot2, R Markdown for replication  
+* Regression analysis (OLS) with team- and season-level effects  
+* Data cleaning and preprocessing  
+* Data visualization and storytelling  
+* Reproducibility: full analysis performed in both Python and R  
 
-## Insights
-* Teams consistently earn more points at home — confirming a home-field advantage.
-* Year- and team-level effects give hints of trends, even when estimates are noisy.
-* Visualizations highlight the relative strength of home advantage for each team.
+## Key Findings
+* Teams earn more points at home, confirming a measurable home-field advantage  
+* Home advantage is relatively consistent across seasons  
+* Team-level estimates highlight the strongest and weakest home-field performers  
+* Visualizations make trends and relative advantages easy to compare
 
 ## Next Steps
-* Incorporate more detailed match-level statistics (shots, possession, player metrics)
-* Explore player-level performance and team strategies
-* Extend analysis to NWSL for comparison with MLS
-* Use insights from both Python and R versions to cross-validate results
+* Incorporate additional match-level statistics (shots, possession, fouls, cards)  
+* Explore player-level performance and team strategies  
+* Compare MLS with NWSL home-field trends  
+* Use insights from both Python and R analyses to cross-validate results  
+
+## Notes
+* The R Markdown notebook produces a fully reproducible analysis, including visualizations and tables  
+* The project can serve as a baseline for more advanced statistical modeling of soccer performance
+
