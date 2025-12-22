@@ -6,7 +6,7 @@ This project investigates **home-field advantage in Major League Soccer (MLS)** 
 * `data/raw/` – Original CSV files from Kaggle
 * `data/processed/` – Filtered and cleaned datasets used for analysis
 * `notebooks/` – Python (Colab) notebook and R Markdown notebook
-* `figures/` – Visualizations generated during the analysis
+* `visuals/` – Visualizations generated during the analysis
 
 ## Objective
 * Quantify the effect of home games on team performance (points earned)
